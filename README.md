@@ -9,7 +9,7 @@ This was a project maded for a coming soon landing page, where the cliente reque
 The PacMan Canvas is a open source JS project and it was modified by me to fullfill the client necessities,
 as colors, translations, icons changes, contact form and others.
 
-a series of modifications were necessary to adapt the JS to the new page and code.
+A series of modifications were necessary to adapt the JS to the new page and code.
 
 ✔ This code uses:
 HTML | CSS | JS | PHP
