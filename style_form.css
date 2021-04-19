@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: url('img/bg-pattern-black.png') repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========= FORM ========== */
+
+.contatto{
+	width: 540px;
+	margin: 10px auto;
+	padding: 20px 40px;
+	background-color: #00000060;
+	color: #fff;
+	text-align: left;
+}
+.contatto > a{
+	float: left;
+	text-decoration: none;
+	color: #fff;
+  background-color: #01A8E8;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.contatto h1{
+	font-size: 20px;
+	line-height: 20px;
+  color: #38e4ae;
+  margin-bottom: 30px;
+}
+.testo_intro{
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+form, input, textarea, button#submit{
+  border: none;
+  display: block;
+  width: 100%;
+  outline: none;
+	box-shadow: none;
+	margin: 0;
+}
+
+button{
+  cursor: pointer;
+}
+button#submit{
+  width: 101%;
+  height: 40px;
+  margin: 5px auto 10px;
+	background-color: #999;
+	border-top: 2px solid #bbb;
+	border-left: 2px solid #bbb;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+}
+
+button#submit:hover{
+	border-top: 2px solid #666;
+	border-left: 2px solid #666;
+	border-bottom: 2px solid #bbb;
+	border-right: 2px solid #bbb;
+}
+
+input:focus, textarea:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+textarea{
+	resize: none;
+  height: 100px;
+  border-top: 2px solid #bbb;
+	border-left: 2px solid #bbb;
+	border-bottom: 2px solid #666;
+  border-right: 2px solid #666;
+  background-color: #999;
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+input{
+  width: 100%;
+  margin-top: 5px;
+	margin-bottom: 15px;
+	border-top: 2px solid #bbb;
+	border-left: 2px solid #bbb;
+	border-bottom: 2px solid #666;
+  border-right: 2px solid #666;
+  background-color: #999;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.required{
+	font-size: 12px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#file{
+	border: none;
+}
+
+.half{
+	width: 50%;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+#nome{
+	width: 90%;
+}
+
+#file{
+	background-color: transparent;
+}
+
+.nascosto{
+	display: none;
+}
+#testoprivacy{
+  margin-top: 20px;
+}
+#testoprivacy, #testonews{
+  display: block;
+  font-size: 12px;
+  cursor: pointer;
+}
+#testoprivacy a{
+  color: #01A8E8;
+}
+
+#privacy, #news{
+	display: block;
+	float: left;
+	width: 20px;
+	margin-top: -5px;
+	margin-right: 5px;
+}
+#news{
+  margin-top: -10px;
+}
+sup{
+	font-size: 10px;
+}
+button{
+	font-size: 20px;
+	color: #000;
+}
+.resultado{
+  width: 100%;
+}
+button{
+  width: 100%;
+  height: 30px;
+  border-top: 2px solid #92fad9;
+	border-left: 2px solid #92fad9;
+	border-bottom: 2px solid #259773;
+  border-right: 2px solid #259773;
+  background-color: #38e4ae;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  padding: 5px;
+}
+button:hover{
+  border-top: 2px solid #259773;
+	border-left: 2px solid #259773;
+	border-bottom: 2px solid #92fad9;
+  border-right: 2px solid #92fad9;
+  background-color: #38e4ae;
+  font-size: 13px;
+}
+#span-resultado{
+  padding: 10px 30px;
+  background-color: #38e4ae;
+  color: #000;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 700px){
+  body{
+    background: #000;
+  } 
+  .contatto{
+    width: 100%;
+    margin: 10px auto;
+    padding: 30px 20px;
+    background-color: #00000060;
+    color: #fff;
+    text-align: left;
+  }
+  .contatto h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .testo_intro{
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .half{
+    width: 100%;
+  }
+  #nome{
+    width: 100%;
+  }
+}
