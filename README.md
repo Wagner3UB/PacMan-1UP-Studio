@@ -16,6 +16,7 @@ HTML | CSS | JS | PHP
 
 ⚠ Site lang: IT
 
+📛 Important: Please read the file named README-PacmanCanvas.md for pacman-canvas JS documentation and copyrights
 
 ——————————————————————————————————————————————————————————————
 
